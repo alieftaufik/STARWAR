@@ -13,13 +13,12 @@ public class war2 {
 			System.out.print("Lebar : ");
 			double l = input.nextDouble();
 
-			double  luas = p * l;
-			double keliling = 2*(p + l);
+			int  luas = (int)p * (int)l;
+			int keliling = (int)2*(int)(p + l);
 			
 			System.out.println("OUTPUT");
-			System.out.println(" Luas : " + luas);
-			System.out.println(" Keliling : " + keliling);
+			System.out.println("Luas : " + luas);
+			System.out.println("Keliling : " + keliling);
 
 		}
 }
-
