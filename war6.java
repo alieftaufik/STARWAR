@@ -11,7 +11,7 @@ public class war6 {
 			int b = sc.nextInt();
 			System.out.println("OUTPUT");
 			String awal = "O";
-
+			String akhir = "X";
 			for (int i = 0; i < b; i++) {
 				if (awal == "O") {
 					System.out.print("X ");
@@ -21,13 +21,14 @@ public class war6 {
 					awal = "O";
 				}
 			}
+			
 			for (int i = 0; i < b; i++) {
-				if (awal == "X") {
+				if (akhir == "X") {
 					System.out.print("O ");
-					awal = "O";
+					akhir = "O";
 				} else {
 					System.out.print("X ");
-					awal = "X";
+					akhir = "X";
 				}
 			}
 	}
